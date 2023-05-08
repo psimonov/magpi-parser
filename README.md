@@ -1,5 +1,7 @@
 # Parser of magPi and other magazines from [raspberrypi.com](https://www.raspberrypi.com)
 
+![MagPi iPad covers](magpi.jpg)
+
 ## Introduction
 
 ### Available magazines:
