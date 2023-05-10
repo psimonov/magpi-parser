@@ -1,4 +1,3 @@
-
 # MagPi parser
 
 Parser of magPi and other magazines from [raspberrypi.com](https://www.raspberrypi.com)
