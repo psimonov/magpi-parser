@@ -1,7 +1,7 @@
 {
   "name": "magpi-parser",
   "version": "0.0.4",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "magpi": "node src/magpi.js",
     "hackspace": "node src/hackspace.js",
