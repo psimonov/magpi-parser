@@ -1,6 +1,6 @@
 # MagPi parser
 
-Parser of magPi and other magazines from [raspberrypi.com](https://www.raspberrypi.com)
+Parser of magPi and other magazines from [raspberrypi.com](https://www.raspberrypi.com).
 
 ![Cover](cover.jpg)
 
@@ -15,9 +15,9 @@ Parser of magPi and other magazines from [raspberrypi.com](https://www.raspberry
 
 ## Available magazines
 
-- [MagPi](https://magpi.raspberrypi.com/issues)
-- [HackSpace](https://hackspace.raspberrypi.com/issues)
-- [Hello World](https://helloworld.raspberrypi.org/issues)
+- [MagPi](https://magpi.raspberrypi.com/issues).
+- [HackSpace](https://hackspace.raspberrypi.com/issues).
+- [Hello World](https://helloworld.raspberrypi.org/issues).
 
 
 ## Installation
@@ -47,18 +47,18 @@ $ npm run helloworld
 
 ## Roadmap
 
-- ~~Automatically retrieve the last issue number~~
+- ~~Automatically retrieve the last issue number.~~
 
-- Continue working from the last downloaded issue
+- Continue working from the last downloaded issue.
 
-- Displaying download progress
+- Displaying download progress.
 
 
 ## Contributing
 
-You can email or create a pull request adding downloads of new subject magazines or fixing the parsing of the layout of current sites
+You can email or create a pull request adding downloads of new subject magazines or fixing the parsing of the layout of current sites.
 
 
 ## Feedback
 
-If you have any feedback, please reach out to us at psimonov.web@gmail.com
+If you have any feedback, please reach out to us at psimonov.web@gmail.com.
