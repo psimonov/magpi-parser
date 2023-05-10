@@ -38,7 +38,3 @@ $ npm run magpi
 $ npm run hackspace
 $ npm run helloworld
 ```
-
-At the moment, the number of issues to download is not defined automatically
-and is described in each script separately by the *ISSUES_COUNT* variable.
-This will be fixed in upcoming versions.

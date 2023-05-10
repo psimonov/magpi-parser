@@ -9,23 +9,29 @@ const {
 
 const FILE_PATH = `${__dirname}/../files/magpi/`;
 const SITE_HOST = 'https://magpi.raspberrypi.com';
-const ISSUES_COUNT = 129;
 
 (async () => {
-  consoleFrame(
-    [
-      'Starting downloading issues...',
-      `FILE_PATH: ${FILE_PATH}`,
-      `SITE_HOST: ${SITE_HOST}`,
-      `ISSUES_COUNT: ${ISSUES_COUNT}`,
-    ],
-    {
-      char: '*',
-      mode: 'frame',
-    }
-  );
-
   try {
+    const lastIssueUrl = await parseUrl(
+      `${SITE_HOST}/issues`,
+      '.o-type-display .c-link'
+    );
+
+    const ISSUES_COUNT = Number(lastIssueUrl.replace(/\D/g, ''));
+
+    consoleFrame(
+      [
+        'Starting downloading issues...',
+        `FILE_PATH: ${FILE_PATH}`,
+        `SITE_HOST: ${SITE_HOST}`,
+        `ISSUES_COUNT: ${ISSUES_COUNT}`,
+      ],
+      {
+        char: '*',
+        mode: 'frame',
+      }
+    );
+
     for (let issueNumber = ISSUES_COUNT; issueNumber > 0; issueNumber--) {
       consoleFrame(`Parsing issue #${issueNumber} url...`);
 
